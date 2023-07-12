@@ -1,0 +1,125 @@
+.story {
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 12px 12px 29px 0px #D0D3D7, -12px -12px 28px 0px #F3F3F3;
+}
+
+.story .top {
+    padding: 13px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.story .top .user {
+    display: flex;
+}
+
+.story .top .user .iconDiv {
+    display: flex;
+    align-items: center;
+}
+.story .top .user .icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    margin-right: 12px;
+    background-size: cover;
+    background-position: center;
+}
+
+.story .info {
+    display: flex;
+    align-items: center;
+}
+
+.story .info p {
+    color: #000;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+}
+
+.story .info span {
+    color: #858585;
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.story .top .copyLink {
+    display: flex;
+    align-items: center;
+}
+
+.story .image {
+    aspect-ratio: 5 / 4;
+    background-size: cover;
+    background-position: center;
+}
+
+.story .bottom {
+    padding: 25px 15px;
+}
+.story.small .bottom {
+    padding: 15px;
+}
+
+.story .bottom span {
+    color: #2D2D2D;
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.story .bottom h3 {
+    color: #222;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 4px;
+    margin: 0;
+}
+.story.small .bottom h3 {
+    margin-bottom: 15px;
+}
+
+.story .bottom p {
+    color: #3D3D3D;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 15px;
+}
+
+.noStory {
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 12px 12px 29px 0px #D0D3D7, -12px -12px 28px 0px #F3F3F3;
+    width: 100%;
+    aspect-ratio: 2 / 1;
+    display: flex;
+    align-items: center;
+}
+
+.noStory h3 {
+    color: #3D3D3D;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+}

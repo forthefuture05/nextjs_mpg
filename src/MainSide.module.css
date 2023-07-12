@@ -1,0 +1,71 @@
+.mainSide {
+    width: 100%;
+}
+
+.grid {
+    margin-top: 160px;
+    padding: 0 18%;
+    display: grid;
+    grid-template-columns: [first] 62% [second] 32%;
+    grid-gap: 0 6%;
+}
+
+.slider {
+    width: 130% !important;
+    margin-left: -15% !important;
+    padding: 15% !important;
+    margin-top: -15% !important;
+}
+
+.aboutUs {
+    border-radius: 12px;
+    padding: 60px 40px;
+    margin-top: 48px;
+    background-image: url("/images/aboutus.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.aboutUs span {
+    color: #E3E3E3;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 2px;
+}
+
+.aboutUs h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+    margin-bottom: 17px;
+    width: 100%;
+}
+
+.aboutUs p {
+    color: #E8E8E8;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 100%;
+}
+
+.aboutUs .linkBox {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}

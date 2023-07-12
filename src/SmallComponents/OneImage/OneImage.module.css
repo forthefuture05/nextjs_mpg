@@ -1,0 +1,70 @@
+.image {
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 12px 12px 29px 0px #D0D3D7, -12px -12px 28px 0px #F3F3F3;
+    width: 100%;
+}
+
+.image .top {
+    padding: 13px 15px;
+    display: flex;
+}
+
+.image .top .iconDiv {
+    display: flex;
+    align-items: center;
+}
+
+.image .top .icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    margin-right: 12px;
+    background-size: cover;
+    background-position: center;
+}
+
+.image .info {
+    display: flex;
+    align-items: center;
+}
+
+.image .info p {
+    color: #000;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+}
+
+.image .info span {
+    color: #858585;
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.image .imagePost {
+    width: 100%;
+    aspect-ratio: 6 / 5;
+    background-position: center;
+    background-size: cover;
+}
+
+.image .bottom {
+    padding: 13px 15px;
+}
+
+.image .bottom p {
+    color: #3D3D3D;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin: 0;
+}

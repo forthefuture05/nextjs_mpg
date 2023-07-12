@@ -1,0 +1,31 @@
+.artikel span {
+    color: #2D2D2D;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.artikel h1 {
+    color: #222;
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+    margin-bottom: 3px;
+}
+
+.artikel .image {
+    width: 100%;
+    aspect-ratio: 3 / 1;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+
+.artikel .innerDiv {
+    padding: 0 5%;
+}

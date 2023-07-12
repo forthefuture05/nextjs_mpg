@@ -1,0 +1,52 @@
+.ag {
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 12px 12px 29px 0px #D0D3D7, -12px -12px 28px 0px #F3F3F3;
+    padding: 40px 15px;
+}
+
+.ag h3 {
+    color: #222;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 17px;
+}
+
+.ag p {
+    color: #3D3D3D;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 17px;
+}
+
+.ag .linkCtn {
+    display: flex;
+    justify-content: center;
+}
+
+.noAg {
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 12px 12px 29px 0px #D0D3D7, -12px -12px 28px 0px #F3F3F3;
+    padding: 40px 15px;
+}
+.ag p {
+    color: #3D3D3D;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 17px;
+    text-align: center;
+    width: 100%;
+}

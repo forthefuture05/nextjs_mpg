@@ -1,0 +1,16 @@
+.navigation {
+    display: flex;
+}
+.navigation a {
+    margin: 0 !important;
+}
+
+.text {
+    margin: 0 5px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+}
+.text span {
+    font-weight: 500;
+    color: #68A7FF;
+}

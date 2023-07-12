@@ -1,0 +1,54 @@
+.dateBox {
+    padding: 20px 25px;
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 12px 12px 29px 0px #D0D3D7, -12px -12px 28px 0px #F3F3F3;
+    display: flex;
+    margin-bottom: 22px;
+}
+
+.date {
+    border-radius: 8px;
+    background: radial-gradient(199.65% 199.65% at 50.00% 50.00%, #FFF 0%, #ADD7F6 100%);
+    box-shadow: 4px 4px 3px 0px rgba(207, 207, 207, 0.26);
+    padding: 6px 12px;
+    margin-right: 23px;
+}
+
+.date div {
+    color: #000;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}
+
+.date span {
+    color: #636363;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: block;
+    margin: 0 auto;
+}
+
+.dateBox .info {
+    display: flex;
+    align-items: center;
+}
+
+.dateBox .info p {
+    color: #222;
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+}

@@ -1,0 +1,5 @@
+.galerie {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(48%, 1fr));
+    grid-gap: 22px 4%;
+}

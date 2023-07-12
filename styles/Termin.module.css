@@ -1,0 +1,51 @@
+.dateTitle {
+    width: 100%;
+    display: flex;
+    margin-bottom: 38px;
+}
+.date {
+    border-radius: 10px;
+    background: radial-gradient(199.65% 199.65% at 50.00% 50.00%, #FFF 0%, #ADD7F6 100%);
+    box-shadow: 4px 4px 3px 0px rgba(207, 207, 207, 0.26);
+    padding: 10px 20px;
+    margin-right: 23px;
+}
+
+.date div {
+    color: #000;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}
+
+.date span {
+    color: #636363;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: block;
+    margin: 0 auto;
+}
+
+.dateTitle .info {
+    display: flex;
+    align-items: center;
+}
+
+.dateTitle .info h1 {
+    color: #222;
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    margin-bottom: 3px;
+}

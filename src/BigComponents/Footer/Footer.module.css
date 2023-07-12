@@ -1,0 +1,39 @@
+.footer {
+    background-color: #fff;
+    padding: 35px 10%;
+    margin-top: 80px;
+}
+.footer .ctn {
+    display: flex;
+    justify-content: space-between;
+}
+.image, .links {
+    display: flex;
+    align-items: center;
+}
+.image img {
+    width: 110px;
+    height: auto;
+}
+.links ul {
+    padding: 0;
+}
+.links ul li {
+    display: inline-block;
+    margin-left: 50px;
+}
+.links ul li:first-child {
+    margin: 0;
+}
+/* .links ul li a {
+    color: #68A7FF;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: underline;
+} */
+
+@media screen and (max-width: 600px) {
+    .footer .ctn {
+        display: block !important;
+    }
+}
