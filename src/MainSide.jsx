@@ -23,60 +23,62 @@ const MainSide = props => {
             <Nav />
 
             <div className={styles.grid}>
-                <main className={styles.main}>
-                    {props.children}
-                </main>
+                <div className={styles.innerGrid}>
+                    <main className={styles.main}>
+                        {props.children}
+                    </main>
 
-                <aside className={styles.side}>
-                    {!props.noPic && <>
-                        <TitleBar top="0">Unsere Galerie</TitleBar>
+                    <aside className={styles.side}>
+                        {!props.noPic && <>
+                            <TitleBar top="0">Unsere Galerie</TitleBar>
 
-                        {bilder.length > 0 ? <><Swiper
-                            slidesPerView={1}
-                            spaceBetween={90}
-                            pagination={{
-                                clickable: true,
-                            }}
-                            autoplay={{
-                                delay: 4500,
-                                disableOnInteraction: true,
-                            }}
-                            modules={[Autoplay, Pagination]}
-                            className={styles.slider}
-                        >{bilder.map(e => {
-                            return (
-                                <SwiperSlide key={e.id}>
-                                    <OneImage data={e} />
-                                </SwiperSlide>
-                            )
-                        })}</Swiper><LinkUnderline href="/galerie">Alle ansehen</LinkUnderline></> : <>
-                            Ein Fehler ist aufgekommen...
-                        </>}
-                    </>}
-
-
-                    <TitleBar top={props.noPic ? "0" : null}>Unsere Termine</TitleBar>
-
-                    {!props.noTermine && <>
-                        {termine.length > 0 ? <>
-                            {termine.map(e => {
+                            {bilder.length > 0 ? <><Swiper
+                                slidesPerView={1}
+                                spaceBetween={90}
+                                pagination={{
+                                    clickable: true,
+                                }}
+                                autoplay={{
+                                    delay: 4500,
+                                    disableOnInteraction: true,
+                                }}
+                                modules={[Autoplay, Pagination]}
+                                className={styles.slider}
+                            >{bilder.map(e => {
                                 return (
-                                    <OneDate data={e} key={e.id} />
+                                    <SwiperSlide key={e.id}>
+                                        <OneImage data={e} />
+                                    </SwiperSlide>
                                 )
-                            })}
-                            <LinkUnderline href="/termine">Alle ansehen</LinkUnderline>
-                        </> : <>Etwas ist schiefgelaufen...</>}
-                    </>}
+                            })}</Swiper><LinkUnderline href="/galerie">Alle ansehen</LinkUnderline></> : <>
+                                Ein Fehler ist aufgekommen...
+                            </>}
+                        </>}
 
-                    <div className={styles.aboutUs}>
-                        <span>Oberstufensprecher</span>
-                        <h3>Warum diese Seite?</h3>
-                        <p>Hallo, wir sind eure Oberstufensprecher! Wir haben diese Website ins Leben gerufen, damit wir als Schüler besser informiert sind über Events und uns als Schulgemeinschaft näher kommen können!</p>
-                        <div className={styles.linkBox}>
-                            <BasicLink href="/aboutus">Mehr erfahren</BasicLink>
+
+                        <TitleBar top={props.noPic ? "0" : null}>Unsere Termine</TitleBar>
+
+                        {!props.noTermine && <>
+                            {termine.length > 0 ? <>
+                                {termine.map(e => {
+                                    return (
+                                        <OneDate data={e} key={e.id} />
+                                    )
+                                })}
+                                <LinkUnderline href="/termine">Alle ansehen</LinkUnderline>
+                            </> : <>Etwas ist schiefgelaufen...</>}
+                        </>}
+
+                        <div className={styles.aboutUs}>
+                            <span>Oberstufensprecher</span>
+                            <h3>Warum diese Seite?</h3>
+                            <p>Hallo, wir sind eure Oberstufensprecher! Wir haben diese Website ins Leben gerufen, damit wir als Schüler besser informiert sind über Events und uns als Schulgemeinschaft näher kommen können!</p>
+                            <div className={styles.linkBox}>
+                                <BasicLink href="/aboutus">Mehr erfahren</BasicLink>
+                            </div>
                         </div>
-                    </div>
-                </aside>
+                    </aside>
+                </div>
             </div>
 
             <Footer />

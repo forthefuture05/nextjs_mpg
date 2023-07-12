@@ -3,8 +3,14 @@
 }
 
 .grid {
+    display: flex;
+    justify-content: center;
+}
+
+.innerGrid {
     margin-top: 160px;
-    padding: 0 18%;
+    max-width: 1200px;
+    width: 100%;
     display: grid;
     grid-template-columns: [first] 62% [second] 32%;
     grid-gap: 0 6%;

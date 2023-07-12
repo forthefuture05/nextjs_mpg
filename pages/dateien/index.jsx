@@ -22,24 +22,26 @@ export default function dateien(props) {
             <Nav />
 
             <div className={styles.dateienCtn}>
-                <div className={styles.left}>
-                    <TitleBar top="0">AGs an unserer Schule</TitleBar>
+                <div className={styles.innerDiv}>
+                    <div className={styles.left}>
+                        <TitleBar top="0">AGs an unserer Schule</TitleBar>
 
-                    <div className={styles.ags}>
-                        {ags.length > 0 ? ags.map(e => {
-                            return (
-                                <OneAg data={e} key={e.id} />
-                            )
-                        }) : <>
-                            <NoAg />
-                            <NoAg />
-                            <NoAg />
-                        </>}
+                        <div className={styles.ags}>
+                            {ags.length > 0 ? ags.map(e => {
+                                return (
+                                    <OneAg data={e} key={e.id} />
+                                )
+                            }) : <>
+                                <NoAg />
+                                <NoAg />
+                                <NoAg />
+                            </>}
+                        </div>
                     </div>
-                </div>
 
-                <div className={styles.right}>
-                    <TitleBar top="0">Wichtige Ressourcen</TitleBar>
+                    <div className={styles.right}>
+                        <TitleBar top="0">Wichtige Ressourcen</TitleBar>
+                    </div>
                 </div>
             </div>
 

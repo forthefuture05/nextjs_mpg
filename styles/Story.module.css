@@ -5,11 +5,14 @@
 .singleStory {
     margin-top: 160px;
     width: 100%;
-    padding: 0 18%;
+    display: flex;
+    justify-content: center;
+    padding: 0 0;
 }
 
 .singleStory .innerDiv {
     width: 100%;
+    max-width: 1200px;
     max-height: 600px;
     height: 100vh;
     display: grid;
@@ -88,7 +91,7 @@
 .singleStory .bottom span {
     color: #2D2D2D;
     font-family: "Montserrat", sans-serif;
-    font-size: 10px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;

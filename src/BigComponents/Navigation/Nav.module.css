@@ -1,14 +1,21 @@
 .nav {
     background: #FFF;
     box-shadow: 12px 12px 29px 0px #D0D3D7, -12px -12px 28px 0px #F3F3F3;
-    padding: 14px 18%;
-    display: flex;
-    justify-content: space-between;
+    padding: 14px 0;
     width: 100%;
     position: fixed;
+    display: flex;
+    justify-content: center;
     top: 0;
     left: 0;
     z-index: 100;
+}
+
+.innerNav {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .nav .logo {
