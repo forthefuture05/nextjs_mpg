@@ -49,7 +49,7 @@ const Nav = () => {
                 </div>
 
                 <div className={styles.toDash}>
-                    <Link href={`https://mpgoberstufe-v2.up.railway.app/admin`} target='_blank'></Link>
+                    <Link href={`https://mpg-oberstufe.up.railway.app/admin`} target='_blank'></Link>
                     <Image src="/images/admin.svg" width="25" height="25" />
                 </div>
             </div>
